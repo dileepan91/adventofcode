@@ -8,7 +8,7 @@ import java.util.List;
 public class Puzzle1{
 
     public static void main(String[] args) throws IOException {
-        List<String> inputs = Files.readAllLines(Paths.get("src/java/adventofcode2022/Puzzle1Input.txt"));
+        List<String> inputs = Files.readAllLines(Paths.get("adeventofcode/src/_2022/Puzzle1Input.txt"));
         int highCalories[] = {0,0,0};
         int calories = 0;
         for(String input:inputs) {
